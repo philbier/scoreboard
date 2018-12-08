@@ -2,13 +2,25 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  background: radial-gradient(circle, #8AB1AA 40%, #5EACC2, #1F81AF);
+  background: radial-gradient(circle, #5EACC2 40%, #5EACC2, #1F81AF);
   font-family: Oxygen, sans-serif;
 }
 
+canvas {
+  background: white;
+}
+
+h1.first-header,
+h1.second-header {
+  margin-top: 30px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .scoreboard {
+  margin-top: 10px;
   width: 350px;
   height: 150px;
   border-radius: 20px;
